@@ -8,15 +8,6 @@ Kotas-MacBook:git_challenge kota2$ git commit -m "日本語訳を追加"
 [main 0e0a012] 日本語訳を追加
  1 file changed, 5 insertions(+), 2 deletions(-)
 Kotas-MacBook:git_challenge kota2$ git diff hello_world.rtf
-Kotas-MacBook:git_challenge kota2$ git log
-commit 0e0a012c8cdf42b56747b570a5273be193965325 (HEAD -> main)
-Author: ppppgggggkkk <pagerink@gamil.com>
-Date:   Sat Dec 14 17:54:34 2024 +0900
-
-    日本語訳を追加
-
-commit b08f1ad44f6c02568a64cb0af27c2c52ee12420a
-Author: ppppgggggkkk <pagerink@gamil.com>
-Date:   Sat Dec 14 17:53:03 2024 +0900
-
-    hello_world.rtfを追加
+Kotas-MacBook:git_challenge kota2$ git log --oneline -- hello_world.rtf
+0e0a012 (HEAD -> main) 日本語訳を追加
+b08f1ad hello_world.rtfを追加
